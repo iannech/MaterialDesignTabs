@@ -24,7 +24,7 @@
             android:id="@+id/tabs"
             android:layout_height="match_parent"
             android:layout_width="match_parent"
-            app:tabMode="fixed"
+            app:tabMode="scrollable"
             app:tabGravity="fill"/>
 
     </android.support.design.widget.AppBarLayout>
