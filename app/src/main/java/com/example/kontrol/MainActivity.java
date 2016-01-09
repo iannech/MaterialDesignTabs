@@ -95,7 +95,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            return mFragmentTitleList.get(position);
+
+            // rezturn null to display only the icon
+            return null;
         }
     }
 }
